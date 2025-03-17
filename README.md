@@ -54,7 +54,7 @@ MNIST/
 ├── 🐳 Dockerfile          # Container configuration
 ├── 📛 .dockerignore       # Docker exclusion rules
 ├── 📛 .gitignore          # Git exclusion rules
-└── 📜 requirements.txt    # 
+└── 📜 requirements.txt    # requirements
 ```
 
 ## 🛠 Tech Stack
@@ -73,8 +73,7 @@ MNIST/
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/mnist-web-app.git
-cd mnist-web-app
+git clone https://github.com/marti0001/MNIST-Digit-Classification
 
 # Build Docker image
 docker build -t mnist-app .
